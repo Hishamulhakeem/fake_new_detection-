@@ -31,9 +31,9 @@ This script helps filter and sort news articles into two categories:
 
 The project expects the following CSV files to be present in the ./data/ directory:
 
-FakeNews.csv: Contains news articles labeled as fake.
-TrueNews.csv: Contains news articles labeled as real.
-FakeNewsNet.csv: Another dataset for training purposes, containing news titles and labels.
+- FakeNews.csv: Contains news articles labeled as fake.
+- TrueNews.csv: Contains news articles labeled as real.
+- FakeNewsNet.csv: Another dataset for training purposes, containing news titles and labels.
 
 ## Dependencies
 
