@@ -27,12 +27,6 @@ This script helps filter and sort news articles into two categories:
 - **Original News**: Articles labeled as `1`.
 - It saves the filtered datasets into separate CSV files (`FakeNews.csv` and `OrgNews.csv`).
 
-## Dependencies
-
-- pandas
-- scikit-learn
-- numpy
-
 ## Data
 
 The project expects the following CSV files to be present in the ./data/ directory:
@@ -41,7 +35,12 @@ FakeNews.csv: Contains news articles labeled as fake.
 TrueNews.csv: Contains news articles labeled as real.
 FakeNewsNet.csv: Another dataset for training purposes, containing news titles and labels.
 
+## Dependencies
 
+- pandas
+- scikit-learn
+- numpy
+  
 You can install the required dependencies using the following command:
 ```bash
 pip install pandas scikit-learn numpy
